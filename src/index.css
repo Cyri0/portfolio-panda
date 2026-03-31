@@ -92,3 +92,34 @@ h1{
       }
   }
 }
+
+#contactForm{
+  max-width: 600px;
+  margin: auto;
+  
+  label{
+    display: block;
+  }
+
+  input, textarea{
+    width: 100%;
+  }
+  button{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+  button:hover{
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
+@media (min-width: 800px){
+  #contactForm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
