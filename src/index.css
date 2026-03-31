@@ -96,15 +96,25 @@ h1{
 #contactForm{
   max-width: 600px;
   margin: auto;
+  margin-bottom: 50px;
   
   label{
     display: block;
+    font-size: 0.8rem;
   }
 
   input, textarea{
+    padding: 10px;
+    font-size: 1rem;
     width: 100%;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
   }
   button{
+    border-radius: 5px;
     width: 100%;
     padding: 10px;
     background: transparent;
